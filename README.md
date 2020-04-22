@@ -17,7 +17,7 @@ body_checks = regexp:/etc/postfix/body_checks
 You should setup the `cron.daily` job for automatic updates:
 
 ```
-sudo wget -O /etc/cron.daily/postfix-checks https://github.com/sorinpohontu/Postfix-Checks/raw/master/etc/cron.daily/postfix-checks
+sudo wget -O /etc/cron.daily/postfix-checks https://raw.githubusercontent.com/sorinpohontu/Postfix-Checks/master/etc/cron.daily/postfix-checks
 
 sudo chown root:root /etc/cron.daily/postfix-checks
 sudo chmod +x /etc/cron.daily/postfix-checks

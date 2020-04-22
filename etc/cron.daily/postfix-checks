@@ -10,7 +10,6 @@ if [ "$?" -ne "0" ]; then
     echo "$REPO_URL$BODY_CHECKS not found ..."
 else
     if [ -e $BODY_CHECKS ]; then
-        echo "Postmapping $BODY_CHECKS ..."
         /usr/sbin/postmap $BODY_CHECKS
     fi
 fi
@@ -21,7 +20,6 @@ if [ "$?" -ne "0" ]; then
     echo "$REPO_URL$HEADER_CHECKS not found ..."
 else
     if [ -e $HEADER_CHECKS ]; then
-        echo "Postmapping $HEADER_CHECKS ..."
         /usr/sbin/postmap $HEADER_CHECKS
     fi
 fi
