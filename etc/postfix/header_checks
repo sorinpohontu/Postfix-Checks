@@ -25,8 +25,8 @@
 
 # Orders /BBB
 /^Received:.*bbb.org/ REJECT No BBB Complains
-/^Subject:.*Urgent information from BBB*/ REJECT No BBB info
-/^Subject:.*Your intuit.com order*/ REJECT Incorrect Order No
+/^Subject:.*Urgent\sinformation\sfrom\sBBB*/ REJECT No BBB info
+/^Subject:.*Your\sintuit\.com\sorder*/ REJECT Incorrect Order No
 
 # Jobs
 /^Subject:.*\{enlsbj2\}*/ REJECT No jobs advertise
@@ -64,16 +64,16 @@
 /^Subject:.*Your\sJob\sApplication\sStatus\sis:\sPending\s\(Response\srequired\)/ REJECT No jobs advertise
 
 # Others
-/^Subject:.*Forget Asking For A Link Exchange*/ REJECT No Link Exchange
-/^Subject:.*How to get free quality visitors to your website*/ REJECT No Free Visitors
-/^Subject:.*How would you like to have your ad on 2 Million Websites*/ REJECT No Traffic boost
-/^Subject:.*How would you like to put your ad right to the screens of millions*/ REJECT No ads posts
-/^Subject:.*Instantly boost your website's traffic*/ REJECT No Traffic boost
-/^Subject:.*Post your ads where people read them*/ REJECT No ads posts
+/^Subject:.*Forget\sAsking\sFor\sA\sLink Exchange*/ REJECT No Link Exchange
+/^Subject:.*How\sto\sget\sfree\squality\svisitors\sto\syour\swebsite*/ REJECT No Free Visitors
+/^Subject:.*How\swould\syou\slike\sto\shave\syour\sad\son\s2\sMillion\sWebsites*/ REJECT No Traffic boost
+/^Subject:.*How\swould\syou\slike\sto\sput\syour\sad\sright\sto\sthe\sscreens\sof\smillions*/ REJECT No ads posts
+/^Subject:.*Instantly\sboost\syour\swebsite\'s\straffic*/ REJECT No Traffic boost
+/^Subject:.*Post\syour\sads\swhere\speople\sread\sthem*/ REJECT No ads posts
 
 # Scan
-/^Subject:.*Scan from a Hewlett-Packard ScanJet*/ REJECT We have our own scanner here
-/^Subject:.*Scan from a Xerox WorkCentre Pro*/ REJECT We have our own scanner here
+/^Subject:.*Scan\sfrom\sa\sHewlett-Packard\sScanJet*/ REJECT We have our own scanner here
+/^Subject:.*Scan\sfrom\sa\sXerox\sWorkCentre\sPro*/ REJECT We have our own scanner here
 
 # Viarga / Ciails
 /^Subject:.*Ciails*/ REJECT No Ciails needed in here

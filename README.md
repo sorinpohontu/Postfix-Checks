@@ -6,7 +6,7 @@ Scope of the project is to use [Postfix Built-in Content Inspection](http://www.
 
 ### Instalation
 
-Edit your `/etc/postfix/main.cf` contains:
+Edit your `/etc/postfix/main.cf`:
 
 ```
 # Content Inspection
