@@ -1,0 +1,13 @@
+# /etc/postfix/body_checks
+# Checks are done in order, top to bottom.
+
+# Pills & Stuff
+/Ciails/ REJECT No Ciails advertise (0x0B)
+/Cilais/ REJECT No Cilais advertise (0x0B)
+
+# Enlargement
+/Enlargement treatment/ REJECT No Enlargement advertise (0x0B)
+
+# Jobs
+/We are looking TEXT  Editor at large well-known company/ REJECT No jobs advertise (0x0B)
+/Large American company which engaged in IT development and investment, looking for representatives in Europe/ REJECT No jobs advertise (0x0B)

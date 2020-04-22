@@ -1,0 +1,136 @@
+# /etc/postfix/header_checks
+# Checks are done in order, top to bottom.
+
+# Non-RFC Compliance
+/[^[:print:]]{7}/  REJECT RFC2047
+/^.*=20[a-z]*=20[a-z]*=20[a-z]*=20[a-z]*/ REJECT RFC822
+/(.*)?\{6,\}/ REJECT RFC822
+/(.*)[X|x]\{3,\}/ REJECT RFC822
+
+# Subject: Character set
+/^Subject:.*=\?(euc-kr|ks_c_5601-1987|koi8)\?/ REJECT Unreadable charset
+
+# Content: Character set
+/^Content-Type:.*charset="?(euc-kr|ks_c_5601-1987|koi8|iso-2022-jp)/ REJECT Unreadable charset
+/^(Content-Type:.*|\s+)charset\s*=\s*"?([wW]indows-1251)\?/ REJECT Bad Content Type
+
+# Subject: Spaces and hidden words
+/^Subject:.*      / REJECT Too many space in Subject
+/^Subject:.*r[ _\.\*\-]+o[ _\.\*\-]+l[ _\.\*\-]+e[ _\.\*\-]+x/ REJECT Hidden Words
+/^Subject:.*p[ _\.\*\-]+o[ _\.\*\-]+r[ _\.\*\-]+n/ REJECT Hidden Words
+
+# Content: Attachments
+/^Content-(Type|Disposition):.*(file)?name=.*\.(ade|adp|asd|asf|asx|bat|bhx|chm|cil|cmd|cpl|dll|doc\.doc|docm|elm|exe|hlp|hta|jse|lnk|mim|msi|msp|nws|ocx|pif|reg|scr|sct|shb|shm|shs|vb|vbe|vbs|vbx|vxd|wmf|wms|wmz|wmd|wsc|wsf|wsh|wsz)/ REJECT Bad type of file attachment (.${3})
+/^Content-(Disposition|Type):\s+.+?(file)?name="?.+?\.com(\.\S{2,4})?(\?=)?"?(;|$)/ REJECT ".com" file attachment types not allowed
+
+# Orders /BBB
+/^Received:.*bbb.org/ REJECT No BBB Complains
+/^Subject:.*Urgent information from BBB*/ REJECT No BBB info
+/^Subject:.*Your intuit.com order*/ REJECT Incorrect Order No
+
+# Jobs
+/^Subject:.*\{enlsbj2\}*/ REJECT No jobs advertise
+/^Subject:.*Administrative\sAssistant\sPosition*/ REJECT No jobs advertise
+/^Subject:.*Administrative\sSales\sSupport\s-\sVirtual\sOffice/ REJECT No jobs advertise
+/^Subject:.*Administrator\sin\sCustomer\scare/ REJECT No jobs advertise
+/^Subject:.*Buscamos\spersonal*/ REJECT No jobs advertise
+/^Subject:.*Career\sopportunity\sinside/ REJECT No jobs advertise
+/^Subject:.*Changing\scareers\sbut\slack\sthe\sright Degree*/ REJECT No jobs advertise
+/^Subject:.*Empleo\sde\sunas\scuantas\shoras\slibres*/ REJECT No jobs advertise
+/^Subject:.*Employment\s([O|o])pportunity/ REJECT No jobs advertise
+/^Subject:.*Employment\syou've\sbeen\ssearching!/ REJECT No jobs advertise
+/^Subject:.*Enter\sData\sOnline\sWorking\sFrom\sYour\sHome*/ REJECT No jobs advertise
+/^Subject:.*Finance\sAdministrator*/ REJECT No jobs advertise
+/^Subject:.*Finance\sManager*/ REJECT No jobs advertise
+/^Subject:.*Financier*/ REJECT No jobs advertise
+/^Subject:.*Job\sApplication\sStatus.\sAction Required/ REJECT No jobs advertise
+/^Subject:.*Job\soffer\smatch,\srespond\sto\sapply/ REJECT No jobs advertise
+/^Subject:.*Job\sopportunity\s-\shurry\sto\sapply!/ REJECT No jobs advertise
+/^Subject:.*Manager\sCustomer\sService/ REJECT No jobs advertise
+/^Subject:.*New\sjob\svacancy\s-\ssee\sdetails/ REJECT No jobs advertise
+/^Subject:.*Offshore\smanager*/ REJECT No jobs advertise
+/^Subject:.*Part-time*/ REJECT No jobs advertise
+/^Subject:.*Position\sopening\sin\syour\sarea/ REJECT No jobs advertise
+/^Subject:.*Recruitment\sin\sthe\slarge\scompany*/ REJECT No jobs advertise
+/^Subject:.*Start\searning\s15\sminutes\sfrom\snow*/ REJECT No jobs advertise
+/^Subject:.*Virtual\sAssistant Vacancy/ REJECT No jobs advertise
+/^Subject:.*Work\sat\sHome*/ REJECT No jobs advertise
+/^Subject:.*Work\sfor\sa\slarge\sairline\scompany*/ REJECT No jobs advertise
+/^Subject:.*Work\soffer\sinside/ REJECT No jobs advertise
+/^Subject:.*Work\swith\sfinance*/ REJECT No jobs advertise
+/^Subject:.*Working\swith\shigh\sincomes*/ REJECT No jobs advertise
+/^Subject:.*Working\swith\soffshore*/ REJECT No jobs advertise
+/^Subject:.*Working\swith\sthe\sfree\sschedule*/ REJECT No jobs advertise
+/^Subject:.*Your\sJob\sApplication\sStatus\sis:\sPending\s\(Response\srequired\)/ REJECT No jobs advertise
+
+# Others
+/^Subject:.*Forget Asking For A Link Exchange*/ REJECT No Link Exchange
+/^Subject:.*How to get free quality visitors to your website*/ REJECT No Free Visitors
+/^Subject:.*How would you like to have your ad on 2 Million Websites*/ REJECT No Traffic boost
+/^Subject:.*How would you like to put your ad right to the screens of millions*/ REJECT No ads posts
+/^Subject:.*Instantly boost your website's traffic*/ REJECT No Traffic boost
+/^Subject:.*Post your ads where people read them*/ REJECT No ads posts
+
+# Scan
+/^Subject:.*Scan from a Hewlett-Packard ScanJet*/ REJECT We have our own scanner here
+/^Subject:.*Scan from a Xerox WorkCentre Pro*/ REJECT We have our own scanner here
+
+# Viarga / Ciails
+/^Subject:.*Ciails*/ REJECT No Ciails needed in here
+/^Subject:.*Cilais*/ REJECT No Cilais needed in here
+/^Subject:.*Viarga*/ REJECT No Viarga needed in here
+/^Subject:.*Vigara*/ REJECT No Vigara needed in here
+/^Subject:.*Significant improvement in both length and girth*/ REJECT No improvement needed in here
+
+# Watches
+/^Subject:.*Replica watches*/ REJECT No advertise
+/^Subject:.*Rolex Sport Model*/ REJECT No advertise
+
+# Known spammers
+/^From:.*@advertise-bz.cn*/ REJECT No SPAM please
+/^From:.*@globedv.com*/ REJECT No SPAM please
+/^From:.*@isoieftin.com*/ REJECT No SPAM please
+/^From:.*@voipprepay.zapto.org*/ REJECT No SPAM please
+/^From:.*163.com/ REJECT Blacklisted
+/^From:.*voxmarketing@rs-4pr.com*/ REJECT No SPAM please
+
+/^Received:.*.aoskoma.com/ REJECT No SPAM please
+/^Received:.*.avyatm.com/ REJECT No SPAM please
+/^Received:.*.chickenkiller.com/ REJECT No SPAM please
+/^Received:.*.crabdance.com/ REJECT No SPAM please
+/^Received:.*.ddns.net/ REJECT No SPAM please
+/^Received:.*.detrove.com/ REJECT No SPAM please
+/^Received:.*.fitngon.com/ REJECT No SPAM please
+/^Received:.*.gruposhalama.co/ REJECT No SPAM please
+/^Received:.*.gymmyoo.com/ REJECT No SPAM please
+/^Received:.*.hopto.org/ REJECT No SPAM please
+/^Received:.*.ignorelist.com/ REJECT No SPAM please
+/^Received:.*.iiswdelhi.com/ REJECT No SPAM please
+/^Received:.*.isefardi.com/ REJECT No SPAM please
+/^Received:.*.jumpingcrab.com/ REJECT No SPAM please
+/^Received:.*.loganckane.co/ REJECT No SPAM please
+/^Received:.*.mailched.com/ REJECT No SPAM please
+/^Received:.*.mooo.com/ REJECT No SPAM please
+/^Received:.*.noip.me/ REJECT No SPAM please
+/^Received:.*.odbarber.com/ REJECT No SPAM please
+/^Received:.*.oujevais.com/ REJECT No SPAM please
+/^Received:.*.serveftp.com/ REJECT No SPAM please
+/^Received:.*.strangled.net/ REJECT No SPAM please
+/^Received:.*.sytes.net/ REJECT No SPAM please
+/^Received:.*.tipkade.com/ REJECT No SPAM please
+/^Received:.*.toupeta.com/ REJECT No SPAM please
+/^Received:.*.trimshp.com/ REJECT No SPAM please
+/^Received:.*.twilightparadox.com/ REJECT No SPAM please
+/^Received:.*.webhop.me/ REJECT No SPAM please
+/^Received:.*.zreload.co/ REJECT No SPAM please
+
+# Romanian
+/^Subject:.*([C|c])entura\scontra*/ REJECT Enough SPAM
+/^Subject:.*([C|c])entura\smagnetic*/ REJECT Enough SPAM
+/^Subject:.*([R|r])ecuperari creante pesoane juridice*/ REJECT Enough SPA
+/^Subject:.*detector de radar*/ REJECT Enough SPA
+
+/^Received:.*.listacompanii.net/ REJECT No SPAM please
+
+# BTC Scam
+/^Subject:.*Pericol ridicat. Contul dvs. a fost piratat*/ REJECT Not enough BTC available
