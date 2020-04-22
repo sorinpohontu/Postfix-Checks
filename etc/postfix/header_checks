@@ -125,12 +125,13 @@
 /^Received:.*.zreload.co/ REJECT No SPAM please
 
 # Romanian
+/^Received:.*.listacompanii.net/ REJECT No SPAM please
+
 /^Subject:.*([C|c])entura\scontra*/ REJECT Enough SPAM
 /^Subject:.*([C|c])entura\smagnetic*/ REJECT Enough SPAM
 /^Subject:.*([R|r])ecuperari creante pesoane juridice*/ REJECT Enough SPA
 /^Subject:.*detector de radar*/ REJECT Enough SPA
+/^Subject:.*promovare\sorganica\sfacebook/ REJECT No SPAM please
 
-/^Received:.*.listacompanii.net/ REJECT No SPAM please
-
-# BTC Scam
+# BTC
 /^Subject:.*Pericol ridicat. Contul dvs. a fost piratat*/ REJECT Not enough BTC available
