@@ -1,11 +1,11 @@
 #!/bin/sh
 
-REPO_URL="https://github.com/sorinpohontu/Postfix-Checks/raw/master"
+REPO_URL="https://raw.githubusercontent.com/sorinpohontu/Postfix-Checks/master"
 BODY_CHECKS="/etc/postfix/body_checks"
 HEADER_CHECKS="/etc/postfix/header_checks"
 
-# Update BODY_CHECKS
-/usr/bin/wget -q -O $BODY_CHECKS $REPO_URL$BODY_CHECKS
+# BODY_CHECKS
+/usr/bin/wget -q --no-cache -O $BODY_CHECKS $REPO_URL$BODY_CHECKS
 if [ "$?" -ne "0" ]; then
     echo "$REPO_URL$BODY_CHECKS not found ..."
 else
@@ -15,8 +15,8 @@ else
     fi
 fi
 
-# Update HEADER_CHECKS
-/usr/bin/wget -q -O $HEADER_CHECKS $REPO_URL$HEADER_CHECKS
+# HEADER_CHECKS
+/usr/bin/wget -q --no-cache -O $HEADER_CHECKS $REPO_URL$HEADER_CHECKS
 if [ "$?" -ne "0" ]; then
     echo "$REPO_URL$HEADER_CHECKS not found ..."
 else
