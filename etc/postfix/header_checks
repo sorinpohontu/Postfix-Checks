@@ -7,17 +7,9 @@
 /(.*)?\{6,\}/ REJECT RFC822
 /(.*)[X|x]\{3,\}/ REJECT RFC822
 
-# Subject: Character set
-/^Subject:.*=\?(euc-kr|ks_c_5601-1987|koi8)\?/ REJECT Unreadable charset
-
-# Content: Character set
-/^Content-Type:.*charset="?(euc-kr|ks_c_5601-1987|koi8|iso-2022-jp)/ REJECT Unreadable charset
-/^(Content-Type:.*|\s+)charset\s*=\s*"?([wW]indows-1251)\?/ REJECT Bad Content Type
-
-# Subject: Spaces and hidden words
-/^Subject:.*      / REJECT Too many space in Subject
-/^Subject:.*r[ _\.\*\-]+o[ _\.\*\-]+l[ _\.\*\-]+e[ _\.\*\-]+x/ REJECT Hidden Words
-/^Subject:.*p[ _\.\*\-]+o[ _\.\*\-]+r[ _\.\*\-]+n/ REJECT Hidden Words
+# Subject: Hidden chars
+/^Subject:.*r[ _\.\*\-]+o[ _\.\*\-]+l[ _\.\*\-]+e[ _\.\*\-]+x/ REJECT Unreadable subject
+/^Subject:.*p[ _\.\*\-]+o[ _\.\*\-]+r[ _\.\*\-]+n/ REJECT Unreadable subject
 
 # Content: Attachments
 /^Content-(Type|Disposition):.*(file)?name=.*\.(ade|adp|asd|asf|asx|bat|bhx|chm|cil|cmd|cpl|dll|doc\.doc|docm|elm|exe|hlp|hta|jse|lnk|mim|msi|msp|nws|ocx|pif|reg|scr|sct|shb|shm|shs|vb|vbe|vbs|vbx|vxd|wmf|wms|wmz|wmd|wsc|wsf|wsh|wsz)/ REJECT Bad type of file attachment (.${3})
@@ -39,7 +31,7 @@
 /^Subject:.*Administrator\sin\sCustomer\scare/ REJECT No jobs advertise
 /^Subject:.*Buscamos\spersonal*/ REJECT No jobs advertise
 /^Subject:.*Career\sopportunity\sinside/ REJECT No jobs advertise
-/^Subject:.*Changing\scareers\sbut\slack\sthe\sright Degree*/ REJECT No jobs advertise
+/^Subject:.*Changing\scareers\sbut\slack\sthe\sright\sDegree*/ REJECT No jobs advertise
 /^Subject:.*Empleo\sde\sunas\scuantas\shoras\slibres*/ REJECT No jobs advertise
 /^Subject:.*Employment\s([O|o])pportunity/ REJECT No jobs advertise
 /^Subject:.*Employment\syou've\sbeen\ssearching!/ REJECT No jobs advertise
@@ -53,7 +45,6 @@
 /^Subject:.*Manager\sCustomer\sService/ REJECT No jobs advertise
 /^Subject:.*New\sjob\svacancy\s-\ssee\sdetails/ REJECT No jobs advertise
 /^Subject:.*Offshore\smanager*/ REJECT No jobs advertise
-/^Subject:.*Part-time*/ REJECT No jobs advertise
 /^Subject:.*Position\sopening\sin\syour\sarea/ REJECT No jobs advertise
 /^Subject:.*Recruitment\sin\sthe\slarge\scompany*/ REJECT No jobs advertise
 /^Subject:.*Start\searning\s15\sminutes\sfrom\snow*/ REJECT No jobs advertise
@@ -129,13 +120,15 @@
 /^Received:.*.zreload.co/ REJECT No SPAM please
 
 # Romanian
+/^From:.*@asrecover.email*/ REJECT No SPAM please
+
 /^Received:.*.listacompanii.net/ REJECT No SPAM please
 
-/^Subject:.*([C|c])entura\scontra*/ REJECT Enough SPAM
-/^Subject:.*([C|c])entura\smagnetic*/ REJECT Enough SPAM
-/^Subject:.*([R|r])ecuperari creante pesoane juridice*/ REJECT Enough SPA
-/^Subject:.*detector de radar*/ REJECT Enough SPA
+/^Subject:.*([C|c])entura\scontra*/ REJECT No SPAM please
+/^Subject:.*([C|c])entura\smagnetic*/ REJECT No SPAM please
+/^Subject:.*([R|r])ecuperari creante pesoane juridice*/ REJECT No SPAM please
+/^Subject:.*detector\sde\sradar*/ REJECT No SPAM please
 /^Subject:.*promovare\sorganica\sfacebook/ REJECT No SPAM please
 
 # BTC
-/^Subject:.*Pericol ridicat. Contul dvs. a fost piratat*/ REJECT Not enough BTC available
+/^Subject:.*Pericol\sridicat\.\sContul\sdvs\.\sa\sfost\spiratat*/ REJECT Not enough BTC available
