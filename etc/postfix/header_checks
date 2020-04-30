@@ -57,6 +57,7 @@
 /^Subject:.*Working\swith\soffshore*/ REJECT No jobs advertise
 /^Subject:.*Working\swith\sthe\sfree\sschedule*/ REJECT No jobs advertise
 /^Subject:.*Your\sJob\sApplication\sStatus\sis:\sPending\s\(Response\srequired\)/ REJECT No jobs advertise
+/^Subject:.*CANCEL\sDEACTIVATION\sREQUEST\sFOR*/ REJECT No jobs advertise
 
 # Others
 /^Subject:.*Forget\sAsking\sFor\sA\sLink Exchange*/ REJECT No Link Exchange
@@ -90,6 +91,7 @@
 /^From:.*voxmarketing@rs-4pr.com*/ REJECT No SPAM please
 
 /^Received:.*.aoskoma.com/ REJECT No SPAM please
+/^Received:.*.atlantfin.com/ REJECT No SPAM please
 /^Received:.*.avyatm.com/ REJECT No SPAM please
 /^Received:.*.chickenkiller.com/ REJECT No SPAM please
 /^Received:.*.crabdance.com/ REJECT No SPAM please
@@ -117,6 +119,7 @@
 /^Received:.*.trimshp.com/ REJECT No SPAM please
 /^Received:.*.twilightparadox.com/ REJECT No SPAM please
 /^Received:.*.webhop.me/ REJECT No SPAM please
+/^Received:.*.yakovlee.com/ REJECT No SPAM please
 /^Received:.*.zreload.co/ REJECT No SPAM please
 
 # Romanian
