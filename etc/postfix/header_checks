@@ -97,7 +97,9 @@
 /^Received:.*.crabdance.com/ REJECT No SPAM please
 /^Received:.*.ddns.net/ REJECT No SPAM please
 /^Received:.*.detrove.com/ REJECT No SPAM please
+/^Received:.*.fishchem.com/ REJECT No SPAM please
 /^Received:.*.fitngon.com/ REJECT No SPAM please
+/^Received:.*.graddoll.com/ REJECT No SPAM please
 /^Received:.*.gruposhalama.co/ REJECT No SPAM please
 /^Received:.*.gymmyoo.com/ REJECT No SPAM please
 /^Received:.*.hopto.org/ REJECT No SPAM please
@@ -111,7 +113,9 @@
 /^Received:.*.noip.me/ REJECT No SPAM please
 /^Received:.*.odbarber.com/ REJECT No SPAM please
 /^Received:.*.oujevais.com/ REJECT No SPAM please
+/^Received:.*.rublgood.com/ REJECT No SPAM please
 /^Received:.*.serveftp.com/ REJECT No SPAM please
+/^Received:.*.shiravan.com/ REJECT No SPAM please
 /^Received:.*.strangled.net/ REJECT No SPAM please
 /^Received:.*.sytes.net/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
@@ -120,6 +124,7 @@
 /^Received:.*.twilightparadox.com/ REJECT No SPAM please
 /^Received:.*.webhop.me/ REJECT No SPAM please
 /^Received:.*.yakovlee.com/ REJECT No SPAM please
+/^Received:.*.youavto.com/ REJECT No SPAM please
 /^Received:.*.zreload.co/ REJECT No SPAM please
 
 # Romanian
