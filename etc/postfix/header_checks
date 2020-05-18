@@ -118,6 +118,7 @@
 /^Received:.*.shiravan.com/ REJECT No SPAM please
 /^Received:.*.strangled.net/ REJECT No SPAM please
 /^Received:.*.sytes.net/ REJECT No SPAM please
+/^Received:.*.szajmaszkok.com/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
