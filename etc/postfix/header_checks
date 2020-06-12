@@ -88,6 +88,7 @@
 /^From:.*@isoieftin.com*/ REJECT No SPAM please
 /^From:.*@voipprepay.zapto.org*/ REJECT No SPAM please
 /^From:.*163.com/ REJECT Blacklisted
+/^From:.*renewaldepartment@mailgun.com*/ REJECT No SPAM please
 /^From:.*voxmarketing@rs-4pr.com*/ REJECT No SPAM please
 
 /^Received:.*.aoskoma.com/ REJECT No SPAM please
@@ -103,6 +104,8 @@
 /^Received:.*.gruposhalama.co/ REJECT No SPAM please
 /^Received:.*.gymmyoo.com/ REJECT No SPAM please
 /^Received:.*.hopto.org/ REJECT No SPAM please
+/^Received:.*.huzeshoes.com/ REJECT No SPAM please
+/^Received:.*.ibyubukwe.com/ REJECT No SPAM please
 /^Received:.*.ignorelist.com/ REJECT No SPAM please
 /^Received:.*.iiswdelhi.com/ REJECT No SPAM please
 /^Received:.*.isefardi.com/ REJECT No SPAM please
