@@ -96,6 +96,7 @@
 /^Received:.*.avyatm.com/ REJECT No SPAM please
 /^Received:.*.chickenkiller.com/ REJECT No SPAM please
 /^Received:.*.crabdance.com/ REJECT No SPAM please
+/^Received:.*.datbeats.com/ REJECT No SPAM please
 /^Received:.*.ddns.net/ REJECT No SPAM please
 /^Received:.*.detrove.com/ REJECT No SPAM please
 /^Received:.*.fishchem.com/ REJECT No SPAM please
@@ -126,6 +127,7 @@
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
 /^Received:.*.twilightparadox.com/ REJECT No SPAM please
+/^Received:.*.vdeomela.com/ REJECT No SPAM please
 /^Received:.*.webhop.me/ REJECT No SPAM please
 /^Received:.*.yakovlee.com/ REJECT No SPAM please
 /^Received:.*.youavto.com/ REJECT No SPAM please
