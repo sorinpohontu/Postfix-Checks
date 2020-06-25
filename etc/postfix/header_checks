@@ -114,6 +114,7 @@
 /^Received:.*.loganckane.co/ REJECT No SPAM please
 /^Received:.*.mailched.com/ REJECT No SPAM please
 /^Received:.*.mooo.com/ REJECT No SPAM please
+/^Received:.*.msaysha.com/ REJECT No SPAM please
 /^Received:.*.noip.me/ REJECT No SPAM please
 /^Received:.*.odbarber.com/ REJECT No SPAM please
 /^Received:.*.oujevais.com/ REJECT No SPAM please
@@ -123,6 +124,7 @@
 /^Received:.*.strangled.net/ REJECT No SPAM please
 /^Received:.*.sytes.net/ REJECT No SPAM please
 /^Received:.*.szajmaszkok.com/ REJECT No SPAM please
+/^Received:.*.talarjoo.com/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
