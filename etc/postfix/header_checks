@@ -94,6 +94,7 @@
 /^Received:.*.aoskoma.com/ REJECT No SPAM please
 /^Received:.*.atlantfin.com/ REJECT No SPAM please
 /^Received:.*.avyatm.com/ REJECT No SPAM please
+/^Received:.*.bebilisim.com/ REJECT No SPAM please
 /^Received:.*.chickenkiller.com/ REJECT No SPAM please
 /^Received:.*.crabdance.com/ REJECT No SPAM please
 /^Received:.*.datbeats.com/ REJECT No SPAM please
@@ -113,6 +114,7 @@
 /^Received:.*.jumpingcrab.com/ REJECT No SPAM please
 /^Received:.*.loganckane.co/ REJECT No SPAM please
 /^Received:.*.mailched.com/ REJECT No SPAM please
+/^Received:.*.moonntree.com/ REJECT No SPAM please
 /^Received:.*.mooo.com/ REJECT No SPAM please
 /^Received:.*.msaysha.com/ REJECT No SPAM please
 /^Received:.*.noip.me/ REJECT No SPAM please
