@@ -94,6 +94,7 @@
 /^Received:.*.aoskoma.com/ REJECT No SPAM please
 /^Received:.*.atlantfin.com/ REJECT No SPAM please
 /^Received:.*.avyatm.com/ REJECT No SPAM please
+/^Received:.*.basalamat.com/ REJECT No SPAM please
 /^Received:.*.bebilisim.com/ REJECT No SPAM please
 /^Received:.*.chickenkiller.com/ REJECT No SPAM please
 /^Received:.*.crabdance.com/ REJECT No SPAM please
@@ -101,6 +102,8 @@
 /^Received:.*.ddns.net/ REJECT No SPAM please
 /^Received:.*.detrove.com/ REJECT No SPAM please
 /^Received:.*.divopanel.com/ REJECT No SPAM please
+/^Received:.*.domsvadbi.com/ REJECT No SPAM please
+/^Received:.*.drivebitz.com/ REJECT No SPAM please
 /^Received:.*.fishchem.com/ REJECT No SPAM please
 /^Received:.*.fitngon.com/ REJECT No SPAM please
 /^Received:.*.graddoll.com/ REJECT No SPAM please
