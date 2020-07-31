@@ -101,6 +101,7 @@
 /^Received:.*.datbeats.com/ REJECT No SPAM please
 /^Received:.*.ddns.net/ REJECT No SPAM please
 /^Received:.*.detrove.com/ REJECT No SPAM please
+/^Received:.*.dilerpro.com/ REJECT No SPAM please
 /^Received:.*.divopanel.com/ REJECT No SPAM please
 /^Received:.*.domsvadbi.com/ REJECT No SPAM please
 /^Received:.*.drivebitz.com/ REJECT No SPAM please
@@ -151,6 +152,7 @@
 /^Received:.*.webhop.me/ REJECT No SPAM please
 /^Received:.*.yakovlee.com/ REJECT No SPAM please
 /^Received:.*.youavto.com/ REJECT No SPAM please
+/^Received:.*.zeusisxe.com/ REJECT No SPAM please
 /^Received:.*.zreload.co/ REJECT No SPAM please
 
 # Romanian
