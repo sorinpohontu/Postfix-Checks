@@ -91,6 +91,7 @@
 /^From:.*renewaldepartment@mailgun.com*/ REJECT No SPAM please
 /^From:.*voxmarketing@rs-4pr.com*/ REJECT No SPAM please
 
+/^Received:.*.anjestan.com/ REJECT No SPAM please
 /^Received:.*.aoskoma.com/ REJECT No SPAM please
 /^Received:.*.atlantfin.com/ REJECT No SPAM please
 /^Received:.*.avyatm.com/ REJECT No SPAM please
@@ -105,6 +106,7 @@
 /^Received:.*.divopanel.com/ REJECT No SPAM please
 /^Received:.*.domsvadbi.com/ REJECT No SPAM please
 /^Received:.*.drivebitz.com/ REJECT No SPAM please
+/^Received:.*.enghilda.com/ REJECT No SPAM please
 /^Received:.*.fishchem.com/ REJECT No SPAM please
 /^Received:.*.fitngon.com/ REJECT No SPAM please
 /^Received:.*.graddoll.com/ REJECT No SPAM please
@@ -119,11 +121,13 @@
 /^Received:.*.isefardi.com/ REJECT No SPAM please
 /^Received:.*.jumpingcrab.com/ REJECT No SPAM please
 /^Received:.*.kranbery.com/ REJECT No SPAM please
+/^Received:.*.lekrteose.com/ REJECT No SPAM please
 /^Received:.*.loganckane.co/ REJECT No SPAM please
 /^Received:.*.mailched.com/ REJECT No SPAM please
 /^Received:.*.meganettv.com/ REJECT No SPAM please
 /^Received:.*.merdekave.com/ REJECT No SPAM please
 /^Received:.*.merinolax.com/ REJECT No SPAM please
+/^Received:.*.mohmfaiz.com/ REJECT No SPAM please
 /^Received:.*.moonntree.com/ REJECT No SPAM please
 /^Received:.*.mooo.com/ REJECT No SPAM please
 /^Received:.*.msaysha.com/ REJECT No SPAM please
@@ -150,9 +154,11 @@
 /^Received:.*.twilightparadox.com/ REJECT No SPAM please
 /^Received:.*.vdeomela.com/ REJECT No SPAM please
 /^Received:.*.webhop.me/ REJECT No SPAM please
+/^Received:.*.wisttler.com/ REJECT No SPAM please
 /^Received:.*.yakovlee.com/ REJECT No SPAM please
 /^Received:.*.youavto.com/ REJECT No SPAM please
 /^Received:.*.zeusisxe.com/ REJECT No SPAM please
+/^Received:.*.zilanco.com/ REJECT No SPAM please
 /^Received:.*.zreload.co/ REJECT No SPAM please
 
 # Romanian
