@@ -12,7 +12,7 @@
 /^Subject:.*p[ _\.\*\-]+o[ _\.\*\-]+r[ _\.\*\-]+n/ REJECT Unreadable subject
 
 # Content: Attachments
-/^Content-(Type|Disposition):.*(file)?name=.*\.(ade|adp|asd|asf|asx|bat|bhx|chm|cil|cmd|cpl|dll|doc\.doc|docm|elm|exe|hlp|hta|jse|lnk|mim|msi|msp|nws|ocx|pif|reg|scr|sct|shb|shm|shs|vb|vbe|vbs|vbx|vxd|wmf|wms|wmz|wmd|wsc|wsf|wsh|wsz)/ REJECT Bad type of file attachment (.${3})
+/^Content-(Type|Disposition):.*(file)?name=.*\.(ade|adp|asd|asf|asx|bat|bhx|chm|cil|cmd|cpl|dll|doc\.doc|docm|elm|exe|gz|hlp|hta|jse|lnk|mim|msi|msp|nws|ocx|pif|reg|scr|sct|shb|shm|shs|vb|vbe|vbs|vbx|vxd|wmf|wms|wmz|wmd|wsc|wsf|wsh|wsz)/ REJECT Bad type of file attachment (.${3})
 
 # https://jimsun.linxnet.com/misc/header_checks.txt
 # ".com" handled differently as above lines would catch attachments like "user@example.com PGP Keys.txt"
