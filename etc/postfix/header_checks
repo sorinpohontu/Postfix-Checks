@@ -135,10 +135,12 @@
 /^Received:.*.odbarber.com/ REJECT No SPAM please
 /^Received:.*.okancelen.com/ REJECT No SPAM please
 /^Received:.*.oujevais.com/ REJECT No SPAM please
+/^Received:.*.outrpact.com/ REJECT No SPAM please
 /^Received:.*.porkaspk.com/ REJECT No SPAM please
 /^Received:.*.ptasystem.com/ REJECT No SPAM please
 /^Received:.*.refarhang.com/ REJECT No SPAM please
 /^Received:.*.rublgood.com/ REJECT No SPAM please
+/^Received:.*.saunadvor.com/ REJECT No SPAM please
 /^Received:.*.serveftp.com/ REJECT No SPAM please
 /^Received:.*.shiravan.com/ REJECT No SPAM please
 /^Received:.*.sndqar.com/ REJECT No SPAM please
