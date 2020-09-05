@@ -119,6 +119,7 @@
 /^Received:.*.ibyubukwe.com/ REJECT No SPAM please
 /^Received:.*.ignorelist.com/ REJECT No SPAM please
 /^Received:.*.iiswdelhi.com/ REJECT No SPAM please
+/^Received:.*.infordet.com/ REJECT No SPAM please
 /^Received:.*.isefardi.com/ REJECT No SPAM please
 /^Received:.*.jumpingcrab.com/ REJECT No SPAM please
 /^Received:.*.kranbery.com/ REJECT No SPAM please
