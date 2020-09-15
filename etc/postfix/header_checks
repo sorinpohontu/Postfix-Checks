@@ -147,6 +147,7 @@
 /^Received:.*.serveftp.com/ REJECT No SPAM please
 /^Received:.*.shiravan.com/ REJECT No SPAM please
 /^Received:.*.sndqar.com/ REJECT No SPAM please
+/^Received:.*.sonylivtv.com/ REJECT No SPAM please
 /^Received:.*.strangled.net/ REJECT No SPAM please
 /^Received:.*.stunggal.com/ REJECT No SPAM please
 /^Received:.*.sytes.net/ REJECT No SPAM please
