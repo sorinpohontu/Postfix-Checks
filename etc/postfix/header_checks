@@ -97,6 +97,7 @@
 /^Received:.*.avyatm.com/ REJECT No SPAM please
 /^Received:.*.basalamat.com/ REJECT No SPAM please
 /^Received:.*.bebilisim.com/ REJECT No SPAM please
+/^Received:.*.bmglondon.com/ REJECT No SPAM please
 /^Received:.*.chickenkiller.com/ REJECT No SPAM please
 /^Received:.*.crabdance.com/ REJECT No SPAM please
 /^Received:.*.datbeats.com/ REJECT No SPAM please
@@ -122,6 +123,7 @@
 /^Received:.*.infordet.com/ REJECT No SPAM please
 /^Received:.*.isefardi.com/ REJECT No SPAM please
 /^Received:.*.jumpingcrab.com/ REJECT No SPAM please
+/^Received:.*.kelivvet.com/ REJECT No SPAM please
 /^Received:.*.kranbery.com/ REJECT No SPAM please
 /^Received:.*.lekrteose.com/ REJECT No SPAM please
 /^Received:.*.loganckane.co/ REJECT No SPAM please
