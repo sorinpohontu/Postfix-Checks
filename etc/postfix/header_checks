@@ -140,6 +140,7 @@
 /^Received:.*.okancelen.com/ REJECT No SPAM please
 /^Received:.*.oujevais.com/ REJECT No SPAM please
 /^Received:.*.outrpact.com/ REJECT No SPAM please
+/^Received:.*.picsglaxy.com/ REJECT No SPAM please
 /^Received:.*.porkaspk.com/ REJECT No SPAM please
 /^Received:.*.ptasystem.com/ REJECT No SPAM please
 /^Received:.*.refarhang.com/ REJECT No SPAM please
