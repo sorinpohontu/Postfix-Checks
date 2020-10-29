@@ -155,7 +155,9 @@
 /^Received:.*.stunggal.com/ REJECT No SPAM please
 /^Received:.*.sytes.net/ REJECT No SPAM please
 /^Received:.*.szajmaszkok.com/ REJECT No SPAM please
+/^Received:.*.takritico.com/ REJECT No SPAM please
 /^Received:.*.talarjoo.com/ REJECT No SPAM please
+/^Received:.*.taleemone.com/ REJECT No SPAM please
 /^Received:.*.tempbigh.com/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
 /^Received:.*.toupeta.com/ REJECT No SPAM please
