@@ -99,6 +99,7 @@
 /^Received:.*.bebilisim.com/ REJECT No SPAM please
 /^Received:.*.bmglondon.com/ REJECT No SPAM please
 /^Received:.*.chickenkiller.com/ REJECT No SPAM please
+/^Received:.*.codeboxtv.com/ REJECT No SPAM please
 /^Received:.*.crabdance.com/ REJECT No SPAM please
 /^Received:.*.datbeats.com/ REJECT No SPAM please
 /^Received:.*.ddns.net/ REJECT No SPAM please
