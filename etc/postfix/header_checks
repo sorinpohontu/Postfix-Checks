@@ -108,6 +108,7 @@
 /^Received:.*.divopanel.com/ REJECT No SPAM please
 /^Received:.*.domsvadbi.com/ REJECT No SPAM please
 /^Received:.*.drivebitz.com/ REJECT No SPAM please
+/^Received:.*.dubzmvmnt.com/ REJECT No SPAM please
 /^Received:.*.elmpedia.com/ REJECT No SPAM please
 /^Received:.*.enghilda.com/ REJECT No SPAM please
 /^Received:.*.fishchem.com/ REJECT No SPAM please
@@ -122,6 +123,7 @@
 /^Received:.*.ignorelist.com/ REJECT No SPAM please
 /^Received:.*.iiswdelhi.com/ REJECT No SPAM please
 /^Received:.*.infordet.com/ REJECT No SPAM please
+/^Received:.*.irynvigre.com/ REJECT No SPAM please
 /^Received:.*.isefardi.com/ REJECT No SPAM please
 /^Received:.*.jumpingcrab.com/ REJECT No SPAM please
 /^Received:.*.kelivvet.com/ REJECT No SPAM please
