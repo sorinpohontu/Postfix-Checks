@@ -119,6 +119,7 @@
 /^Received:.*.hopto.org/ REJECT No SPAM please
 /^Received:.*.hreverest.com/ REJECT No SPAM please
 /^Received:.*.huzeshoes.com/ REJECT No SPAM please
+/^Received:.*.iberagree.com/ REJECT No SPAM please
 /^Received:.*.ibyubukwe.com/ REJECT No SPAM please
 /^Received:.*.ignorelist.com/ REJECT No SPAM please
 /^Received:.*.iiswdelhi.com/ REJECT No SPAM please
@@ -152,6 +153,7 @@
 /^Received:.*.scoopfare.com/ REJECT No SPAM please
 /^Received:.*.serveftp.com/ REJECT No SPAM please
 /^Received:.*.shiravan.com/ REJECT No SPAM please
+/^Received:.*.skansafar.com/ REJECT No SPAM please
 /^Received:.*.sndqar.com/ REJECT No SPAM please
 /^Received:.*.sonylivtv.com/ REJECT No SPAM please
 /^Received:.*.strangled.net/ REJECT No SPAM please
