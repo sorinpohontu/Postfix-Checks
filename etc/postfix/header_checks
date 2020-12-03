@@ -96,6 +96,7 @@
 /^Received:.*.atlantfin.com/ REJECT No SPAM please
 /^Received:.*.avyatm.com/ REJECT No SPAM please
 /^Received:.*.basalamat.com/ REJECT No SPAM please
+/^Received:.*.bctsgroup.com/ REJECT No SPAM please
 /^Received:.*.bebilisim.com/ REJECT No SPAM please
 /^Received:.*.bmglondon.com/ REJECT No SPAM please
 /^Received:.*.chickenkiller.com/ REJECT No SPAM please
@@ -164,6 +165,7 @@
 /^Received:.*.talarjoo.com/ REJECT No SPAM please
 /^Received:.*.taleemone.com/ REJECT No SPAM please
 /^Received:.*.tempbigh.com/ REJECT No SPAM please
+/^Received:.*.teslamun.com/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
