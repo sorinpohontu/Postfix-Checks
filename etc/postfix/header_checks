@@ -114,6 +114,7 @@
 /^Received:.*.enghilda.com/ REJECT No SPAM please
 /^Received:.*.fishchem.com/ REJECT No SPAM please
 /^Received:.*.fitngon.com/ REJECT No SPAM please
+/^Received:.*.fotonteam.com/ REJECT No SPAM please
 /^Received:.*.graddoll.com/ REJECT No SPAM please
 /^Received:.*.gruposhalama.co/ REJECT No SPAM please
 /^Received:.*.gymmyoo.com/ REJECT No SPAM please
