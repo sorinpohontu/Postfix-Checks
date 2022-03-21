@@ -108,9 +108,11 @@
 /^Received:.*.dilerpro.com/ REJECT No SPAM please
 /^Received:.*.divopanel.com/ REJECT No SPAM please
 /^Received:.*.domsvadbi.com/ REJECT No SPAM please
+/^Received:.*.dragonz.morowali.net/ REJECT No SPAM please
 /^Received:.*.drivebitz.com/ REJECT No SPAM please
 /^Received:.*.dubzmvmnt.com/ REJECT No SPAM please
 /^Received:.*.elmpedia.com/ REJECT No SPAM please
+/^Received:.*.email-notifications.com/ REJECT No SPAM please
 /^Received:.*.enghilda.com/ REJECT No SPAM please
 /^Received:.*.fishchem.com/ REJECT No SPAM please
 /^Received:.*.fitngon.com/ REJECT No SPAM please
