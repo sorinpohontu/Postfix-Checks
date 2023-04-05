@@ -2,10 +2,10 @@
 # Checks are done in order, top to bottom.
 
 # Non-RFC Compliance
+#/^.*=20[a-z]*=20[a-z]*=20[a-z]*=20[a-z]*/ REJECT RFC822
 /[^[:print:]]{7}/  REJECT RFC2047
-/^.*=20[a-z]*=20[a-z]*=20[a-z]*=20[a-z]*/ REJECT RFC822
 /(.*)?\{6,\}/ REJECT RFC822
-/(.*)[X|x]\{3,\}/ REJECT RFC822
+/(.*)[X|x]\{4,\}/ REJECT RFC822
 
 # Subject: Hidden chars
 /^Subject:.*r[ _\.\*\-]+o[ _\.\*\-]+l[ _\.\*\-]+e[ _\.\*\-]+x/ REJECT Unreadable subject
