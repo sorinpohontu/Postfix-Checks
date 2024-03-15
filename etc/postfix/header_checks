@@ -72,7 +72,6 @@
 /^Subject:.*Scan\sfrom\sa\sXerox\sWorkCentre\sPro*/ REJECT We have our own scanner here
 
 # Viarga / Ciails
-/^Subject:.*Ciails*/ REJECT No Ciails needed in here
 /^Subject:.*Cilais*/ REJECT No Cilais needed in here
 /^Subject:.*Viarga*/ REJECT No Viarga needed in here
 /^Subject:.*Vigara*/ REJECT No Vigara needed in here
@@ -99,6 +98,7 @@
 /^Received:.*.bctsgroup.com/ REJECT No SPAM please
 /^Received:.*.bebilisim.com/ REJECT No SPAM please
 /^Received:.*.bmglondon.com/ REJECT No SPAM please
+/^Received:.*.chemix.shop/ REJECT No SPAM please
 /^Received:.*.chickenkiller.com/ REJECT No SPAM please
 /^Received:.*.codeboxtv.com/ REJECT No SPAM please
 /^Received:.*.crabdance.com/ REJECT No SPAM please
