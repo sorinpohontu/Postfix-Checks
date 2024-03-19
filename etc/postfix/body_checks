@@ -1,9 +1,6 @@
 # /etc/postfix/body_checks
 # Checks are done in order, top to bottom.
 
-# Pills & Stuff
-/Ciails/ REJECT No Ciails advertise (0x0B)
-
 # Enlargement
 /Enlargement treatment/ REJECT No Enlargement advertise (0x0B)
 
