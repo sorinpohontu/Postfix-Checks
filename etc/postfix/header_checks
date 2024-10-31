@@ -152,6 +152,8 @@
 /^Received:.*.porkaspk.com/ REJECT No SPAM please
 /^Received:.*.ptasystem.com/ REJECT No SPAM please
 /^Received:.*.refarhang.com/ REJECT No SPAM please
+/^Received:.*.rigata.lat/ REJECT No SPAM please
+/^Received:.*.rirovat.homes/ REJECT No SPAM please
 /^Received:.*.rublgood.com/ REJECT No SPAM please
 /^Received:.*.saunadvor.com/ REJECT No SPAM please
 /^Received:.*.scoopfare.com/ REJECT No SPAM please
@@ -159,6 +161,10 @@
 /^Received:.*.shiravan.com/ REJECT No SPAM please
 /^Received:.*.skansafar.com/ REJECT No SPAM please
 /^Received:.*.sndqar.com/ REJECT No SPAM please
+/^Received:.*.solasom.shop/ REJECT No SPAM please
+/^Received:.*.solunat.shop/ REJECT No SPAM please
+/^Received:.*.somanel.click/ REJECT No SPAM please
+/^Received:.*.somanel.lat/ REJECT No SPAM please
 /^Received:.*.sonylivtv.com/ REJECT No SPAM please
 /^Received:.*.spamout.md-best.com/ REJECT No SPAM please
 /^Received:.*.strangled.net/ REJECT No SPAM please
@@ -168,11 +174,13 @@
 /^Received:.*.takritico.com/ REJECT No SPAM please
 /^Received:.*.talarjoo.com/ REJECT No SPAM please
 /^Received:.*.taleemone.com/ REJECT No SPAM please
+/^Received:.*.teemar.shop/ REJECT No SPAM please
 /^Received:.*.tempbigh.com/ REJECT No SPAM please
 /^Received:.*.teslamun.com/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
+/^Received:.*.tugara.bond/ REJECT No SPAM please
 /^Received:.*.twilightparadox.com/ REJECT No SPAM please
 /^Received:.*.vdeomela.com/ REJECT No SPAM please
 /^Received:.*.webhop.me/ REJECT No SPAM please
@@ -182,7 +190,6 @@
 /^Received:.*.zeusisxe.com/ REJECT No SPAM please
 /^Received:.*.zilanco.com/ REJECT No SPAM please
 /^Received:.*.zreload.co/ REJECT No SPAM please
-
 
 # Romanian
 /^From:.*@asrecover.email*/ REJECT No SPAM please
