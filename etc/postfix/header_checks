@@ -135,6 +135,7 @@
 /^Received:.*.kranbery.com/ REJECT No SPAM please
 /^Received:.*.lekrteose.com/ REJECT No SPAM please
 /^Received:.*.loganckane.co/ REJECT No SPAM please
+/^Received:.*.mail.taxare.or.mg/ REJECT No SPAM please
 /^Received:.*.mailched.com/ REJECT No SPAM please
 /^Received:.*.meganettv.com/ REJECT No SPAM please
 /^Received:.*.merdekave.com/ REJECT No SPAM please
@@ -143,9 +144,13 @@
 /^Received:.*.moonntree.com/ REJECT No SPAM please
 /^Received:.*.mooo.com/ REJECT No SPAM please
 /^Received:.*.msaysha.com/ REJECT No SPAM please
+/^Received:.*.mx.eos.kustanai.su/ REJECT No SPAM please
 /^Received:.*.noip.me/ REJECT No SPAM please
 /^Received:.*.odbarber.com/ REJECT No SPAM please
 /^Received:.*.okancelen.com/ REJECT No SPAM please
+/^Received:.*.oscon.shop/ REJECT No SPAM please
+/^Received:.*.oscoro.lat/ REJECT No SPAM please
+/^Received:.*.ospera.lat/ REJECT No SPAM please
 /^Received:.*.oujevais.com/ REJECT No SPAM please
 /^Received:.*.outrpact.com/ REJECT No SPAM please
 /^Received:.*.picsglaxy.com/ REJECT No SPAM please
@@ -161,7 +166,9 @@
 /^Received:.*.shiravan.com/ REJECT No SPAM please
 /^Received:.*.skansafar.com/ REJECT No SPAM please
 /^Received:.*.sndqar.com/ REJECT No SPAM please
+/^Received:.*.sobang.digital/ REJECT No SPAM please
 /^Received:.*.solasom.shop/ REJECT No SPAM please
+/^Received:.*.solunat.click/ REJECT No SPAM please
 /^Received:.*.solunat.shop/ REJECT No SPAM please
 /^Received:.*.somanel.click/ REJECT No SPAM please
 /^Received:.*.somanel.lat/ REJECT No SPAM please
@@ -174,9 +181,11 @@
 /^Received:.*.takritico.com/ REJECT No SPAM please
 /^Received:.*.talarjoo.com/ REJECT No SPAM please
 /^Received:.*.taleemone.com/ REJECT No SPAM please
+/^Received:.*.teemar.biz/ REJECT No SPAM please
 /^Received:.*.teemar.shop/ REJECT No SPAM please
 /^Received:.*.tempbigh.com/ REJECT No SPAM please
 /^Received:.*.teslamun.com/ REJECT No SPAM please
+/^Received:.*.tilabe.lat/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
@@ -189,6 +198,7 @@
 /^Received:.*.youavto.com/ REJECT No SPAM please
 /^Received:.*.zeusisxe.com/ REJECT No SPAM please
 /^Received:.*.zilanco.com/ REJECT No SPAM please
+/^Received:.*.zmail.sibsac.ru/ REJECT No SPAM please
 /^Received:.*.zreload.co/ REJECT No SPAM please
 
 # Romanian
@@ -197,6 +207,7 @@
 /^From:.*@sarbatoricrestine.ro*/ REJECT No SPAM please
 
 /^Received:.*.listacompanii.net/ REJECT No SPAM please
+bazededate.mywire.org
 
 /^Subject:.*([C|c])entura\scontra*/ REJECT No SPAM please
 /^Subject:.*([C|c])entura\smagnetic*/ REJECT No SPAM please
