@@ -206,8 +206,8 @@
 /^From:.*@fondurinerambursabile.live*/ REJECT No SPAM please
 /^From:.*@sarbatoricrestine.ro*/ REJECT No SPAM please
 
+/^Received:.*.bazededate.mywire.org/ REJECT No SPAM please
 /^Received:.*.listacompanii.net/ REJECT No SPAM please
-bazededate.mywire.org
 
 /^Subject:.*([C|c])entura\scontra*/ REJECT No SPAM please
 /^Subject:.*([C|c])entura\smagnetic*/ REJECT No SPAM please
