@@ -207,6 +207,7 @@
 /^From:.*@fdc.ro*/ REJECT No SPAM please
 /^From:.*@fondurinerambursabile.live*/ REJECT No SPAM please
 /^From:.*@sarbatoricrestine.ro*/ REJECT No SPAM please
+/^From:.*@staff2000.eu*/ REJECT No SPAM please
 
 /^Received:.*.bazededate.mywire.org/ REJECT No SPAM please
 /^Received:.*.listacompanii.net/ REJECT No SPAM please
