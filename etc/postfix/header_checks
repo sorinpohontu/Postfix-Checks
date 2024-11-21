@@ -150,7 +150,9 @@
 /^Received:.*.okancelen.com/ REJECT No SPAM please
 /^Received:.*.oscon.shop/ REJECT No SPAM please
 /^Received:.*.oscoro.lat/ REJECT No SPAM please
+/^Received:.*.osoban.click/ REJECT No SPAM please
 /^Received:.*.osoban.lat/ REJECT No SPAM please
+/^Received:.*.osoban.my/ REJECT No SPAM please
 /^Received:.*.ospera.lat/ REJECT No SPAM please
 /^Received:.*.oujevais.com/ REJECT No SPAM please
 /^Received:.*.outrpact.com/ REJECT No SPAM please
