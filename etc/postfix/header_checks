@@ -146,6 +146,7 @@
 /^Received:.*.msaysha.com/ REJECT No SPAM please
 /^Received:.*.mx.eos.kustanai.su/ REJECT No SPAM please
 /^Received:.*.noip.me/ REJECT No SPAM please
+/^Received:.*.ocolas.click/ REJECT No SPAM please
 /^Received:.*.odbarber.com/ REJECT No SPAM please
 /^Received:.*.okancelen.com/ REJECT No SPAM please
 /^Received:.*.oscon.shop/ REJECT No SPAM please
