@@ -173,6 +173,7 @@
 /^Received:.*.sobang.digital/ REJECT No SPAM please
 /^Received:.*.solasom.shop/ REJECT No SPAM please
 /^Received:.*.solunat.click/ REJECT No SPAM please
+/^Received:.*.solunat.lat/ REJECT No SPAM please
 /^Received:.*.solunat.shop/ REJECT No SPAM please
 /^Received:.*.somanel.click/ REJECT No SPAM please
 /^Received:.*.somanel.lat/ REJECT No SPAM please
