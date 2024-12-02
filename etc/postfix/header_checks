@@ -146,6 +146,7 @@
 /^Received:.*.msaysha.com/ REJECT No SPAM please
 /^Received:.*.mx.eos.kustanai.su/ REJECT No SPAM please
 /^Received:.*.noip.me/ REJECT No SPAM please
+/^Received:.*.ocolas.blog/ REJECT No SPAM please
 /^Received:.*.ocolas.click/ REJECT No SPAM please
 /^Received:.*.odbarber.com/ REJECT No SPAM please
 /^Received:.*.okancelen.com/ REJECT No SPAM please
@@ -161,6 +162,7 @@
 /^Received:.*.porkaspk.com/ REJECT No SPAM please
 /^Received:.*.ptasystem.com/ REJECT No SPAM please
 /^Received:.*.refarhang.com/ REJECT No SPAM please
+/^Received:.*.relabs.homes/ REJECT No SPAM please
 /^Received:.*.rigata.lat/ REJECT No SPAM please
 /^Received:.*.rirovat.homes/ REJECT No SPAM please
 /^Received:.*.rublgood.com/ REJECT No SPAM please
