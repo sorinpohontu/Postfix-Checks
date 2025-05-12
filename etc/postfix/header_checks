@@ -148,6 +148,7 @@
 /^Received:.*.noip.me/ REJECT No SPAM please
 /^Received:.*.ocolas.blog/ REJECT No SPAM please
 /^Received:.*.ocolas.click/ REJECT No SPAM please
+/^Received:.*.ocolas.lat/ REJECT No SPAM please
 /^Received:.*.odbarber.com/ REJECT No SPAM please
 /^Received:.*.okancelen.com/ REJECT No SPAM please
 /^Received:.*.oscon.shop/ REJECT No SPAM please
@@ -195,16 +196,19 @@
 /^Received:.*.teslamun.com/ REJECT No SPAM please
 /^Received:.*.tilabe.lat/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
+/^Received:.*.tottes.boats/ REJECT No SPAM please
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
 /^Received:.*.tugara.bond/ REJECT No SPAM please
 /^Received:.*.twilightparadox.com/ REJECT No SPAM please
 /^Received:.*.vdeomela.com/ REJECT No SPAM please
 /^Received:.*.webhop.me/ REJECT No SPAM please
+/^Received:.*.winkinges.de/ REJECT No SPAM please
 /^Received:.*.wisttler.com/ REJECT No SPAM please
 /^Received:.*.yakovlee.com/ REJECT No SPAM please
 /^Received:.*.youavto.com/ REJECT No SPAM please
 /^Received:.*.zeusisxe.com/ REJECT No SPAM please
+/^Received:.*.zhanlingol.com/ REJECT No SPAM please
 /^Received:.*.zilanco.com/ REJECT No SPAM please
 /^Received:.*.zmail.sibsac.ru/ REJECT No SPAM please
 /^Received:.*.zreload.co/ REJECT No SPAM please
