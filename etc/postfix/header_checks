@@ -134,6 +134,7 @@
 /^Received:.*.kelivvet.com/ REJECT No SPAM please
 /^Received:.*.kranbery.com/ REJECT No SPAM please
 /^Received:.*.lekrteose.com/ REJECT No SPAM please
+/^Received:.*.linova.bar/ REJECT No SPAM please
 /^Received:.*.loganckane.co/ REJECT No SPAM please
 /^Received:.*.mail.taxare.or.mg/ REJECT No SPAM please
 /^Received:.*.mailched.com/ REJECT No SPAM please
