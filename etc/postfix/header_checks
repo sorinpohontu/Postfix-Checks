@@ -206,6 +206,7 @@
 /^Received:.*.webhop.me/ REJECT No SPAM please
 /^Received:.*.winkinges.de/ REJECT No SPAM please
 /^Received:.*.wisttler.com/ REJECT No SPAM please
+/^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn/ REJECT No SPAM please
 /^Received:.*.yakovlee.com/ REJECT No SPAM please
 /^Received:.*.youavto.com/ REJECT No SPAM please
 /^Received:.*.zeusisxe.com/ REJECT No SPAM please
