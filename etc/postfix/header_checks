@@ -201,12 +201,12 @@
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
 /^Received:.*.tugara.bond/ REJECT No SPAM please
+/^Received:.*.tugara.cloud/ REJECT No SPAM please
 /^Received:.*.twilightparadox.com/ REJECT No SPAM please
 /^Received:.*.vdeomela.com/ REJECT No SPAM please
 /^Received:.*.webhop.me/ REJECT No SPAM please
 /^Received:.*.winkinges.de/ REJECT No SPAM please
 /^Received:.*.wisttler.com/ REJECT No SPAM please
-/^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn/ REJECT No SPAM please
 /^Received:.*.yakovlee.com/ REJECT No SPAM please
 /^Received:.*.youavto.com/ REJECT No SPAM please
 /^Received:.*.zeusisxe.com/ REJECT No SPAM please
@@ -214,6 +214,12 @@
 /^Received:.*.zilanco.com/ REJECT No SPAM please
 /^Received:.*.zmail.sibsac.ru/ REJECT No SPAM please
 /^Received:.*.zreload.co/ REJECT No SPAM please
+
+# Russian / Punycode
+/^Received:.*.028.xn--p1acf/ REJECT No SPAM please
+/^Received:.*.032.xn--p1acf/ REJECT No SPAM please
+/^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn--p1acf/ REJECT No SPAM please
+/^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn/ REJECT No SPAM please
 
 # Romanian
 /^From:.*@asrecover.email*/ REJECT No SPAM please
