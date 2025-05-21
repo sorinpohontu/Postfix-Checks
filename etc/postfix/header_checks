@@ -162,12 +162,14 @@
 /^Received:.*.outrpact.com/ REJECT No SPAM please
 /^Received:.*.picsglaxy.com/ REJECT No SPAM please
 /^Received:.*.porkaspk.com/ REJECT No SPAM please
+/^Received:.*.provo.breathe.sa.com/ REJECT No SPAM please
 /^Received:.*.ptasystem.com/ REJECT No SPAM please
 /^Received:.*.refarhang.com/ REJECT No SPAM please
 /^Received:.*.relabs.homes/ REJECT No SPAM please
 /^Received:.*.rigata.cloud/ REJECT No SPAM please
 /^Received:.*.rigata.lat/ REJECT No SPAM please
 /^Received:.*.rirovat.homes/ REJECT No SPAM please
+/^Received:.*.rosa.vision-hero.top/ REJECT No SPAM please
 /^Received:.*.rublgood.com/ REJECT No SPAM please
 /^Received:.*.saunadvor.com/ REJECT No SPAM please
 /^Received:.*.scoopfare.com/ REJECT No SPAM please
@@ -197,6 +199,7 @@
 /^Received:.*.teslamun.com/ REJECT No SPAM please
 /^Received:.*.tilabe.lat/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
+/^Received:.*.titanflow.top/ REJECT No SPAM please
 /^Received:.*.tottes.boats/ REJECT No SPAM please
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
