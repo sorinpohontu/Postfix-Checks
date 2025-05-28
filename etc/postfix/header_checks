@@ -86,7 +86,7 @@
 /^From:.*@globedv.com*/ REJECT No SPAM please
 /^From:.*@isoieftin.com*/ REJECT No SPAM please
 /^From:.*@voipprepay.zapto.org*/ REJECT No SPAM please
-/^From:.*163.com/ REJECT Blacklisted
+/^From:.*@163.com/ REJECT No SPAM please
 /^From:.*renewaldepartment@mailgun.com*/ REJECT No SPAM please
 /^From:.*voxmarketing@rs-4pr.com*/ REJECT No SPAM please
 
@@ -189,6 +189,7 @@
 /^Received:.*.strangled.net/ REJECT No SPAM please
 /^Received:.*.stunggal.com/ REJECT No SPAM please
 /^Received:.*.sytes.net/ REJECT No SPAM please
+/^Received:.*.em.gio.tuva.su/ REJECT No SPAM please
 /^Received:.*.szajmaszkok.com/ REJECT No SPAM please
 /^Received:.*.takritico.com/ REJECT No SPAM please
 /^Received:.*.talarjoo.com/ REJECT No SPAM please
@@ -200,6 +201,7 @@
 /^Received:.*.tilabe.lat/ REJECT No SPAM please
 /^Received:.*.tipkade.com/ REJECT No SPAM please
 /^Received:.*.titanflow.top/ REJECT No SPAM please
+/^Received:.*.toceda.pro/ REJECT No SPAM please
 /^Received:.*.tottes.boats/ REJECT No SPAM please
 /^Received:.*.toupeta.com/ REJECT No SPAM please
 /^Received:.*.trimshp.com/ REJECT No SPAM please
@@ -223,6 +225,7 @@
 /^Received:.*.032.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn/ REJECT No SPAM please
+/^Received:.*.xn--j1afn.xn--j1aef.xn--p1acf/ REJECT No SPAM please
 
 # Romanian
 /^From:.*@asrecover.email*/ REJECT No SPAM please
