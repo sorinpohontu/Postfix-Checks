@@ -225,7 +225,9 @@
 /^Received:.*.032.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn/ REJECT No SPAM please
+/^Received:.*.xn--c1api.xn--80awd.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--j1afn.xn--j1aef.xn--p1acf/ REJECT No SPAM please
+/^Received:.*.xn--m1ajb.040.xn--p1acf/ REJECT No SPAM please
 
 # Romanian
 /^From:.*@asrecover.email*/ REJECT No SPAM please
