@@ -112,6 +112,7 @@
 /^Received:.*.drivebitz.com/ REJECT No SPAM please
 /^Received:.*.dubzmvmnt.com/ REJECT No SPAM please
 /^Received:.*.elmpedia.com/ REJECT No SPAM please
+/^Received:.*.em.gio.tuva.su/ REJECT No SPAM please
 /^Received:.*.email-notifications.com/ REJECT No SPAM please
 /^Received:.*.enghilda.com/ REJECT No SPAM please
 /^Received:.*.fishchem.com/ REJECT No SPAM please
@@ -120,6 +121,7 @@
 /^Received:.*.graddoll.com/ REJECT No SPAM please
 /^Received:.*.gruposhalama.co/ REJECT No SPAM please
 /^Received:.*.gymmyoo.com/ REJECT No SPAM please
+/^Received:.*.hncprinting.eicp.net/ REJECT No SPAM please
 /^Received:.*.hopto.org/ REJECT No SPAM please
 /^Received:.*.hreverest.com/ REJECT No SPAM please
 /^Received:.*.huzeshoes.com/ REJECT No SPAM please
@@ -131,6 +133,7 @@
 /^Received:.*.irynvigre.com/ REJECT No SPAM please
 /^Received:.*.isefardi.com/ REJECT No SPAM please
 /^Received:.*.jumpingcrab.com/ REJECT No SPAM please
+/^Received:.*.jxvi3.com/ REJECT No SPAM please
 /^Received:.*.kelivvet.com/ REJECT No SPAM please
 /^Received:.*.kranbery.com/ REJECT No SPAM please
 /^Received:.*.lekrteose.com/ REJECT No SPAM please
@@ -189,7 +192,6 @@
 /^Received:.*.strangled.net/ REJECT No SPAM please
 /^Received:.*.stunggal.com/ REJECT No SPAM please
 /^Received:.*.sytes.net/ REJECT No SPAM please
-/^Received:.*.em.gio.tuva.su/ REJECT No SPAM please
 /^Received:.*.szajmaszkok.com/ REJECT No SPAM please
 /^Received:.*.takritico.com/ REJECT No SPAM please
 /^Received:.*.talarjoo.com/ REJECT No SPAM please
@@ -212,6 +214,7 @@
 /^Received:.*.webhop.me/ REJECT No SPAM please
 /^Received:.*.winkinges.de/ REJECT No SPAM please
 /^Received:.*.wisttler.com/ REJECT No SPAM please
+/^Received:.*.wkgrand.com/ REJECT No SPAM please
 /^Received:.*.yakovlee.com/ REJECT No SPAM please
 /^Received:.*.youavto.com/ REJECT No SPAM please
 /^Received:.*.zeusisxe.com/ REJECT No SPAM please
@@ -225,8 +228,10 @@
 /^Received:.*.032.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn/ REJECT No SPAM please
+/^Received:.*.xn--80aua.xn--80ag7c.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--c1api.xn--80awd.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--j1afn.xn--j1aef.xn--p1acf/ REJECT No SPAM please
+/^Received:.*.xn--l1abm.041.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--m1ajb.040.xn--p1acf/ REJECT No SPAM please
 
 # Romanian
