@@ -155,6 +155,7 @@
 /^Received:.*.ocolas.lat/ REJECT No SPAM please
 /^Received:.*.odbarber.com/ REJECT No SPAM please
 /^Received:.*.okancelen.com/ REJECT No SPAM please
+/^Received:.*.ooguy.com/ REJECT No SPAM please
 /^Received:.*.oscon.shop/ REJECT No SPAM please
 /^Received:.*.oscoro.lat/ REJECT No SPAM please
 /^Received:.*.osoban.click/ REJECT No SPAM please
@@ -226,6 +227,7 @@
 # Russian / Punycode
 /^Received:.*.028.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.032.xn--p1acf/ REJECT No SPAM please
+/^Received:.*.xn--80aicbs3aneck.xn--90amc.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn--p1acf/ REJECT No SPAM please
 /^Received:.*.xn--80aicbs3aneck.xn--j1aef.xn/ REJECT No SPAM please
 /^Received:.*.xn--80aua.xn--80ag7c.xn--p1acf/ REJECT No SPAM please
