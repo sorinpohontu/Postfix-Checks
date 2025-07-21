@@ -82,11 +82,12 @@
 /^Subject:.*Rolex Sport Model*/ REJECT No advertise
 
 # Known spammers
+/^From:.*@163.com/ REJECT No SPAM please
 /^From:.*@advertise-bz.cn*/ REJECT No SPAM please
 /^From:.*@globedv.com*/ REJECT No SPAM please
 /^From:.*@isoieftin.com*/ REJECT No SPAM please
 /^From:.*@voipprepay.zapto.org*/ REJECT No SPAM please
-/^From:.*@163.com/ REJECT No SPAM please
+/^From:.*admin@vpass.ne.jp*/ REJECT No SPAM please
 /^From:.*renewaldepartment@mailgun.com*/ REJECT No SPAM please
 /^From:.*voxmarketing@rs-4pr.com*/ REJECT No SPAM please
 
