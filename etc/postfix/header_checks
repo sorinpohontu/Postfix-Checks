@@ -88,6 +88,7 @@
 /^From:.*@isoieftin.com*/ REJECT No SPAM please
 /^From:.*@voipprepay.zapto.org*/ REJECT No SPAM please
 /^From:.*admin@vpass.ne.jp*/ REJECT No SPAM please
+/^From:.*giuseppe@perfect-logistik.at/ REJECT No SPAM please
 /^From:.*renewaldepartment@mailgun.com*/ REJECT No SPAM please
 /^From:.*voxmarketing@rs-4pr.com*/ REJECT No SPAM please
 
@@ -240,8 +241,10 @@
 # Romanian
 /^From:.*@asrecover.email*/ REJECT No SPAM please
 /^From:.*@cosuricadou.online/ REJECT No SPAM please
+/^From:.*@cosuricorporate.com/ REJECT No SPAM please
 /^From:.*@fdc.ro*/ REJECT No SPAM please
 /^From:.*@fondurinerambursabile.live*/ REJECT No SPAM please
+/^From:.*@newsletter.apsap.ro/ REJECT No SPAM please
 /^From:.*@sarbatoricrestine.ro*/ REJECT No SPAM please
 /^From:.*@staff2000.eu*/ REJECT No SPAM please
 /^From:.*office@certmarin.ro/ REJECT No SPAM please
